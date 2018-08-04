@@ -7,11 +7,38 @@ var piyo = hoge + fuga;
 
 console.log(piyo);
 
-var welcomMsg=document.getElementById("welcomMsg");
-var welcomBtn=document.getElementById("welcomBtn");
+var welcomMsg = document.getElementById("welcomMsg");
+var welcomBtn = document.getElementById("welcomBtn");
 
 // function == 関数 == 一連の処理をまとめたもの
-welcomBtn.onclick = function () {
-    welcomMsg.textContent="蒙古タンメン";
+welcomBtn.onclick = function() {
+    welcomMsg.textContent = "蒙古タンメン";
     welcomMsg.style.color = "blue";
+    /*
+    :
+    :
+    :
+    :
+    :
+    :
+
+    :
+    :
+    :
+    :
+    :
+    :
+    :
+
+    :
+    :
+    :
+    :
+    :
+    :
+    :
+    :
+    :
+    :
+    */
 }
